@@ -28,7 +28,7 @@ This project demonstrates a lightweight question-answering pipeline combining:
 ### Backend Setup
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/mini-qna.git
+   git clone https://github.com/gsaanchi/mini-qna.git  
    cd mini-qna
 
 2. Install dependencies:
@@ -95,14 +95,3 @@ Sources:
 - Support document-based question answering (PDF input)
 - Rank and filter sources by relevance
 - Optional UI enhancements with modern JS frameworks
-
----
-
-## License
-
-MIT License
-
-
-
-   
-
