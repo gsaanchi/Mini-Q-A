@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Answering System</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Q&A System</h1>
+            <p>Get concise answers with sources for any question you have.</p>
+        </header>
+        
+        <div class="response-section" id="responseSection">
+            <p id="answer">Your answer will appear here.</p>
+            <ul id="sourcesList"></ul>
+        </div>
+
+        <div class="query-section">
+            <textarea id="query" placeholder="What do you want to know?"></textarea>
+            <button onclick="fetchAnswer()">Go</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

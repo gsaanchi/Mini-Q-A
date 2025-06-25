@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #1c1c1c;
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  header {
+    margin-top: 40px;
+  }
+  
+  header h1 {
+    font-size: 33px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #ccc; 
+    margin-bottom: 45px;
+  }
+  
+  .response-section {
+    text-align: left;
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 20px;
+    background-color: #2e2e2e; 
+    padding: 15px; 
+    border-radius: 5px; 
+    min-height: 80px; 
+  }
+  #answer {
+    font-size: 18px; 
+    font-weight: 500; 
+    color: #ccc; 
+    margin-bottom: 20px;
+    line-height: 1.6; 
+  }
+  
+  #sourcesList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #sourcesList li {
+    margin-bottom: 15px; 
+  }
+  
+  #sourcesList li a {
+    text-decoration: none;
+    color: #00a0ff; 
+    font-size: 14px; 
+    transition: color 0.3s;
+  }
+  
+  #sourcesList li a:hover {
+    color: #007bff;
+  }
+  
+  .query-section {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 19px;
+    color: #000; 
+    background-color: #ddd; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  button {
+    height: 50px; 
+    padding: 0 20px; 
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+    #answer {
+        font-size: 16px;
+    }
+    #sourcesList li a {
+        font-size: 12px;
+    }
+  }
